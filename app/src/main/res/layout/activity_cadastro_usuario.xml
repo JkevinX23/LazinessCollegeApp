@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="start"
+    android:orientation="vertical"
+    tools:context=".Activitys.Cadastro.CadastroUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/ic_back_cadastro_usuario"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Informações pessoais"
+        android:textAlignment="center"
+        android:textColor="@color/amarelo_escuro"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_email_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Digite seu e-mail"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+
+    <EditText
+        android:id="@+id/et_nome_usuario_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Nome"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+
+    <EditText
+        android:id="@+id/et_curso_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Curso"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+
+
+    <EditText
+        android:id="@+id/et_idade_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Idade"
+        android:inputType="number"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+
+
+
+    <Spinner
+        android:id="@+id/spin_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:popupBackground="@android:color/white"
+        android:scrollbars="none"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:text="@string/confirmar"
+        android:textColor="@color/amarelo_escuro"
+        android:onClick="continuarCadastro"/>
+
+</LinearLayout>

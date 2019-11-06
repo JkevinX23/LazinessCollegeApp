@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.Cadastro.CadastroDiciplinasActivity">
+
+    <Toolbar
+        android:id="@+id/tb_cadastro_diciplinas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarelo_escuro">
+    </Toolbar>>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrando curso" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo \n Precisamos que insira algumas informações para organizarmos suas fotos"
+        android:textColor="@color/amarelo_escuro"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_nome_diciplina_cadastro_diciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Insira o nome da diciplina"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+    <EditText
+        android:id="@+id/et_nome_professor_cadastro_diciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Insira o nome do professor"
+        android:textColorHint="@color/amarelo_escuro"
+        android:theme="@style/EditeTextTheme"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione o periodo letivo"
+        android:gravity="center"
+        android:textColor="@color/amarelo_escuro"
+        android:textSize="20sp"/>
+
+    <NumberPicker
+        android:id="@+id/np_periodo_letivo_cadastro_diciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </NumberPicker>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/amarelo_escuro"
+        android:textColor="@android:color/white"
+        android:text="@string/confirmar"
+        android:onClick="criarDiciplina"
+        />
+</LinearLayout>

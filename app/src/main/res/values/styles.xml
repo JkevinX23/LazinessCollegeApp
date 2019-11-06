@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/amarelo_escuro</item>
+        <item name="colorPrimaryDark">@color/amarelo_mais_escuro</item>
+        <item name="colorAccent">@color/amarelo_mais_escuro</item>
+    </style>
+
+    <style name="EditeTextTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/amarelo_escuro</item>
+        <item name="colorControlActivated">@color/amarelo_escuro</item>
+        <item name="colorControlHighlight">@color/amarelo_mais_escuro</item>
+    </style>
+
+</resources>
