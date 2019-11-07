@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
     private String mNomeFoto;
 
     private String PathDiretoryPhotos = "/storage/sdcard/Android/data/com.example.lazinessincollege/files/Pictures/";
+    //getExternalFilesDir(Environment.DIRECTORY_PICTURES); ////  image.getAbsolutePath();
 
 
     @Override

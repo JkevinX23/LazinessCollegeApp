@@ -16,7 +16,7 @@ import com.example.lazinessincollege.R;
 import java.util.ArrayList;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
-    private static final String TAG = "RecyclerViewAdapter";
+    private static final String TAG = "MEU RecyclerViewAdapter";
     private ArrayList<String> mFotosUrls = new ArrayList<>();
     private Context mContext;
 
